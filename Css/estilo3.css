@@ -1,0 +1,23 @@
+.contenedor{
+  display: flex;
+  height: 20vh;
+  gap: 3px;
+.izquierda{
+  width: 200px;
+  background-color: #90e0ef;
+  padding: 10px;
+}
+.izquierda ul{
+  list-style: none;
+  padding: 0;
+}
+.izquierda li{
+  margin: 10px 0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+.contenido{
+  flex: 1;
+  background-color: cadetblue;
+  padding: 10px;
+}

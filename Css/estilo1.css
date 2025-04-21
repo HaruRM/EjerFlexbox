@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+.contenedor{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contenedor > div {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  
+}
+
+

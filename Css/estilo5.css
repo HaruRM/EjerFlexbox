@@ -1,0 +1,22 @@
+.contenedor{
+  display: flex;
+  height: 100vh;
+  
+}
+.izquierda{
+  width: 200px;
+  background-color: #00796b;
+  color: white;
+  padding: 250px;
+}
+  .derecha{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.derechaA, .derechaB{
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  flex-direction: column;
+}

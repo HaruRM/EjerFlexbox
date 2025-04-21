@@ -1,0 +1,15 @@
+.contenedor{
+  display: flex;
+  gap: 3px;
+  height: 100vh;
+}
+.lateral{
+  width: 250px;
+  padding: 10px;
+  background-color: #90e0ef;
+}
+.principal{
+  flex: 1;
+  background-color: cadetblue;
+  padding: 10px;
+}

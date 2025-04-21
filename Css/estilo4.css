@@ -1,0 +1,25 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid #ccc;
+    margin: auto;
+    margin-top: 50px;
+}
+.encabezado{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.contenido{
+  padding: 50px;
+  background-color: white;
+}
+.pie{
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
